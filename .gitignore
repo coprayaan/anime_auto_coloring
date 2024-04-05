@@ -34,6 +34,7 @@ macos/
 .pub-cache/
 .pub/
 /build/
+.pubspec.lock
 
 # Symbolication related
 app.*.symbols
