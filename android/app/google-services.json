@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092695787763",
+    "project_id": "animecoloring-50c15",
+    "storage_bucket": "animecoloring-50c15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092695787763:android:c0b97fa6341fedb5e64f86",
+        "android_client_info": {
+          "package_name": "com.example.anime_auto_coloring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOwmgULGHjeMcWEWZuE6_Ad7RP0qEWpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

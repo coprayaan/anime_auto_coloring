@@ -46,6 +46,7 @@ dependencies:
   sqflite: ^2.3.3
   http: ^1.2.1
   package_info: ^2.0.2
+  firebase_core: ^2.28.0
 
 
 dev_dependencies:

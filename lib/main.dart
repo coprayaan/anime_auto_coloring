@@ -12,6 +12,7 @@ Future<void> main() async {
   await AppInitializer.initialize();
   // Initialize logger with sentry for release mode and console logger for debug mode.
   await AppLogger.initializeLogger(debugLogger: const ConsoleLogger(), releaseLogger: AppSentryLogger());
+  
   // Run the app.
   runApp(const AnimeColoringApp());
 }
