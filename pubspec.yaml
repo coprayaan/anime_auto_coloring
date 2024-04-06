@@ -41,6 +41,12 @@ dependencies:
   json_annotation: ^4.8.1
   image_picker: ^1.0.7
   flutter_drawing_board: ^0.7.0+2
+  sentry_flutter: ^7.18.0
+  path_provider: ^2.1.2
+  sqflite: ^2.3.3
+  http: ^1.2.1
+  package_info: ^2.0.2
+
 
 dev_dependencies:
   flutter_test:
