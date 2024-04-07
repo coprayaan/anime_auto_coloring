@@ -1,33 +1,28 @@
 import 'package:flutter/material.dart';
 
-class LightTheme {
+class DarkTheme {
   static ThemeData getTheme() {
     return ThemeData(
-      brightness: Brightness.light,
+      brightness: Brightness.dark,
       primaryColor: Colors.blue,
-      colorScheme: const ColorScheme.light(
-        primary: Colors.blue,
-        secondary: Colors.amber, // This is similar to the old accentColor
-      ),
-      scaffoldBackgroundColor: Colors.white,
-      appBarTheme: const AppBarTheme(
-        backgroundColor: Colors.white,
+      scaffoldBackgroundColor: Colors.grey[900],
+      appBarTheme: AppBarTheme(
+        backgroundColor: Colors.grey[900],
         elevation: 0,
       ),
       textTheme: const TextTheme(
         displayLarge: TextStyle(
-          color: Colors.black,
+          color: Colors.white,
           fontSize: 24,
           fontWeight: FontWeight.bold,
         ),
-        // Add more text styles here
       ),
       buttonTheme: const ButtonThemeData(
         buttonColor: Colors.blue,
         textTheme: ButtonTextTheme.primary,
       ),
       iconTheme: const IconThemeData(
-        color: Colors.black,
+        color: Colors.white,
       ),
       // Add more theme properties here
     );
